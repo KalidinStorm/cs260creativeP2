@@ -1,0 +1,90 @@
+body {
+    background-color: #f6f6f6;
+}
+
+h3{
+    text-align: center;
+}
+
+.header {
+    font-family: "kufam";
+    background-color: #9d0909;
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #5D6063;
+    border-radius: 20px;
+    font-weight: normal;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 961px;
+    border: 1px solid #5D6063;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: #9d0909;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    height: 200px;
+    margin: 20px auto;
+}
+
+#SubmitNum {
+    background-color: #9d0909;
+    text-align: center;
+    width: 961px;
+    height: 60px;
+}
+
+#Results {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 961px) {
+    #SubmitNum {
+        background-color: #9d0909;
+        text-align: center;
+        width: 961px;
+        height: 60px;
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    #SubmitNum {
+        background-color: #9d0909;
+        text-align: center;
+        width: 401px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #SubmitNum {
+        background-color: #9d0909;
+        text-align: center;
+        width: 200px;
+        height: 60px;
+    }
+}
+
